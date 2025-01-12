@@ -2,11 +2,11 @@ package Problem3_LengthOfLongestSubstring;
 
 /**
  * Given a string s, find the length of the longest substring without repeating characters.
- *
- * Example:
- * Input: s = "abcabcbb"
- * Output: 3
- * Explanation: The answer is "abc", with the length of 3.
+ * <br>
+ * <br> Example:
+ * <br> Input: s = "abcabcbb"
+ * <br> Output: 3
+ * <br> Explanation: The answer is "abc", with the length of 3.
  *
  * @author Waken Maclang
  * @since January 12, 2025
@@ -53,7 +53,7 @@ public class WakenMaclang_LengthOfLongestSubstring {
     // Improved solution.
     // Inspired from Rahul Varma (LeetCode Problem 3: 3 Method's || C++ || JAVA || PYTHON || Beginner Friendly)
     public int lengthOfLongestSubstrning(String s){
-        int left = 0, right = 0, maxCount = 0;
+        int left = 0, right, maxCount = 0;
         HashSet<Integer> charList = new HashSet<>();
 
         //Traverse the characters of the string once
